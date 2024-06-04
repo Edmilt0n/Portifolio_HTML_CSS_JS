@@ -107,7 +107,7 @@ section.topo-do-site .flex {
 .topo-do-site .txt-topo-site p {
     color: #fff;
     margin: 40px 0;
-    text-align: justify;
+    margin-bottom: 20px; /* Adiciona espaço entre os parágrafos */
 }
 
 .img-topo-site img {
@@ -362,17 +362,20 @@ footer .btn-social {
     }
 
     .logo {
-        display: flex;
+        display: none;
         justify-content: center;
         width: 100%;
     }
 
     .logo-header {
-        width: 150px; /* Ajustar tamanho da logo se necessário */
+        width: 80px; /* Ajustar tamanho da logo se necessário */
         height: auto;
     }
 
     .topo-do-site .flex {
+        gap: 20px;
+        text-align: center; /* Centralizar o texto */
+        flex-direction: column-reverse; /* Inverter a ordem dos itens */
         gap: 20px;
         text-align: center; /* Centralizar o texto */
     }
