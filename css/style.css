@@ -388,6 +388,10 @@ footer img {
         display: none;
     }
 
+    .contato-download .btn-contato {
+        display: flex;
+    }
+
     /* Ajustar layout para telas menores */
     .flex {
         flex-direction: column;
