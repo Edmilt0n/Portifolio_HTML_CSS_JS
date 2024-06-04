@@ -44,11 +44,16 @@ h2.titulo {
 h2.titulo span {
     color: #00FF43;
 }
+p {
+    font-size: larger;
+}
 
 /* CSS DO HEADER */
 
 header {
     padding: 40px 4%;
+    margin-bottom: 0
+    ;
 }
 
 .interface {
@@ -79,14 +84,18 @@ header nav li {
 }
 
 .logo-header {
-    width: 250px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
+}
+.menu-desktop ul li a {
+    font-size: 25px;
 }
 
 /* CSS TOPO DO SITE */
 
 section.topo-do-site {
     padding: 40px 4%;
+    margin-top: 0;
 }
 
 section.topo-do-site .flex {
@@ -111,8 +120,8 @@ section.topo-do-site .flex {
 }
 
 .img-topo-site img {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     border-radius: 10%;
 }
 
@@ -148,8 +157,9 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .btn-download button:hover {
-    box-shadow: 0px 0px 200px #00ff4471;
+    box-shadow: 0px 0px 18px #00ff44bd;
     transform: scale(1.05);
+    color: #00FF43;
 }
 
 
@@ -346,6 +356,10 @@ footer .line-footer i {
 footer .btn-social {
     display: flex;
     gap: 10px; /* Espaço entre os botões sociais */
+}
+footer img {
+    width: 150px;
+    height:100px;
 }
 
 /* Reutilizando o estilo dos botões sociais da seção sobre */
